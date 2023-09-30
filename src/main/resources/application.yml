@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    showSql: true
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddlAuto: create
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pictures
+    username: postgres
+    password: root
